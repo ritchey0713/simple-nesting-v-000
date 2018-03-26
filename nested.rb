@@ -113,8 +113,7 @@ def changing_alan
      
      
      alans_new_info = "GUI"
-     programmer_hash.each{|item| item[:known_for] = "replaced" if item[:known_for] == "Object Orientation"}
-     
+     programmer_hash[:alan_kay][:known_for] = "GUI"
 end
 
 def adding_to_dennis
