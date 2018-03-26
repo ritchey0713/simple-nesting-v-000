@@ -113,7 +113,7 @@ def changing_alan
      
      
      alans_new_info = "GUI"
-    if programmer_hash[:alan_kay][:known_for] == "Object Orientation"
+   programmer_hash.each do {|item| if item[:alan_kay][:known_for] == "Object Orientation", 
       
 end
 
