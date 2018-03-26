@@ -113,7 +113,7 @@ def changing_alan
      
      
      alans_new_info = "GUI"
-     programmer_hash.merge!(changed_hash)
+     programmer_hash.each do |name, value|
      
 end
 
