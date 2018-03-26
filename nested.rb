@@ -115,7 +115,7 @@ def changing_alan
      alans_new_info = "GUI"
      programmer_hash.each do |name, value| 
        if name == :alan_kay 
-         value = alans_new_info
+         value = "GUI"
        end
      end
      
