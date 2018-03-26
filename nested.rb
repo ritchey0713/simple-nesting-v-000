@@ -115,7 +115,8 @@ def changing_alan
      alans_new_info = "GUI"
      
       if programmer_hash[:alan_kay][:known_for] == "Object Orientation"
-        programmer_hash[:alan_kay][:known_for] = "GUI"      end
+        programmer_hash[:alan_kay][:known_for] = "GUI"
+        end
         
       
 end
